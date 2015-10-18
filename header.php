@@ -35,8 +35,8 @@
 <?php wp_head(); ?>
     
 <!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<script src="js/respond.min.js"></script>
+<script src="/assets/js/html5shiv.js"></script>
+<script src="/assets/js/respond.min.js"></script>
 <![endif]-->
     
 </head>
@@ -58,7 +58,7 @@
                    <div class="social">
                         <ul class="social-share">
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://twitter.com/hashtag/ink_Brain?src=hash"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
                             <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                             <li><a href="#"><i class="fa fa-skype"></i></a></li>

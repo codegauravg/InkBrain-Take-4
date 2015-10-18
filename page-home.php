@@ -5,108 +5,32 @@
 
 get_header(); ?>
 
-<!--COROUSEL MAIN-->
-    
 <section id="main-slider" class="no-margin">
-    <div class="carousel slide">
-        <ol class="carousel-indicators">
-            <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-            <li data-target="#main-slider" data-slide-to="1"></li>
-            <li data-target="#main-slider" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
+<div class="carousel slide">
+    <div class="carousel-inner">
 
-            <div class="item active" style="background-image: url(/wp-content/themes/ib/assets/images/slider/bg1.jpg)">
-                <div class="container">
-                    <div class="row slide-margin">
-                        <div class="col-sm-6">
-                            <div class="carousel-content">
-                                <h2 class="animation animated-item-1"><?php bloginfo('description'); ?></h2>
-                                <a class="btn-slide animation animated-item-3" href="#">Read More</a>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 hidden-xs animation animated-item-4">
-                            <div class="slider-img">
-                                <img src="<?php bloginfo(stylesheet_directory); ?>/assets/images/slider/img1.png" class="img-responsive">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div><!--/.item-->
-
-            <div class="item" style="background-image: url(/wp-content/themes/ib/assets/images/slider/bg2.jpg)">
-                <div class="container">
-                    <div class="row slide-margin">
-                        <div class="col-sm-6">
-                            <div class="carousel-content">
-                                <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                <a class="btn-slide animation animated-item-3" href="#">Read More</a>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 hidden-xs animation animated-item-4">
-                            <div class="slider-img">
-                                <img src="<?php bloginfo(stylesheet_directory); ?>/assets/images/slider/img2.png" class="img-responsive">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div><!--/.item-->
-
-            <div class="item" style="background-image: url(/wp-content/themes/ib/assets/images/slider/bg3.jpg)">
-                <div class="container">
-                    <div class="row slide-margin">
-                        <div class="col-sm-6">
-                            <div class="carousel-content">
-                                <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                <a class="btn-slide animation animated-item-3" href="#">Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 hidden-xs animation animated-item-4">
-                            <div class="slider-img">
-                                <img src="<?php bloginfo(stylesheet_directory); ?>/assets/images/slider/img3.png" class="img-responsive">
-                            </div>
+        <div class="item active" style="background-image: url(/wp-content/themes/ib/assets/images/slider/bg1.png)">
+            <div class="container">
+                <div class="row slide-margin">
+                    <div class="col-sm-6">
+                        <div class="carousel-content">
+                            <h1 class="animation animated-item-1"><?php bloginfo("name"); ?></h1>
+                            <h2 class="animation animated-item-2"><?php bloginfo("description"); ?></h2>
+                            <a class="btn-slide animation animated-item-3" href="#">Read More</a>
                         </div>
                     </div>
-                </div>
-            </div><!--/.item-->
-        </div><!--/.carousel-inner-->
-    </div><!--/.carousel-->
-    <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-        <i class="fa fa-chevron-left"></i>
-    </a>
-    <a class="next hidden-xs" href="#main-slider" data-slide="next">
-        <i class="fa fa-chevron-right"></i>
-    </a>
-</section><!--/#main-slider-->
 
-<!--COROUSEL MAIN ENDS HERE-->
-
-<!--SUBSCRIBE-->
-<section id="subscribe-box">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8">
-                <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="pull-left">
-                        <i class="fa fa-envelope fa-fw"></i>
-                    </div>
-                    <div class="media-body">
-                        <h2>Subscribe to our Newsletter</h2>
-                        <div class="pull-right"><a class="btn btn-success" href="#">Subscribe</a>
+                    <div class="col-sm-6 hidden-xs animation animated-item-4">
+                        <div class="slider-img">
+                            <img src="<?php bloginfo("stylesheet_directory"); ?>/assets/images/slider/inkdrop.png" class="img-responsive">
                         </div>
                     </div>
+
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-<!--SUBSCRIBE ENDS-->
+        </div><!--/.item-->
+</section><!--/#main-slider-->
+<!--COROUSEL MAIN ENDS HERE-->
 
 <!--OUR FEATURES TRANSFORMED TO WORKS STARTS HERE-->
 <section id="feature" >
@@ -186,7 +110,7 @@ get_header(); ?>
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
-                        <img class="img-responsive" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/services/services1.png">
+                        <img class="img-responsive" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/services/services1.png">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">SEO Marketing</h3>
@@ -198,7 +122,7 @@ get_header(); ?>
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
-                        <img class="img-responsive" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/services/services2.png">
+                        <img class="img-responsive" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/services/services2.png">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">SEO Marketing</h3>
@@ -210,7 +134,7 @@ get_header(); ?>
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
-                        <img class="img-responsive" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/services/services3.png">
+                        <img class="img-responsive" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/services/services3.png">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">SEO Marketing</h3>
@@ -222,7 +146,7 @@ get_header(); ?>
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
-                        <img class="img-responsive" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/services/services4.png">
+                        <img class="img-responsive" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/services/services4.png">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">SEO Marketing</h3>
@@ -234,7 +158,7 @@ get_header(); ?>
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
-                        <img class="img-responsive" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/services/services5.png">
+                        <img class="img-responsive" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/services/services5.png">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">SEO Marketing</h3>
@@ -246,7 +170,7 @@ get_header(); ?>
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
-                        <img class="img-responsive" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/services/services6.png">
+                        <img class="img-responsive" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/services/services6.png">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">SEO Marketing</h3>
@@ -328,7 +252,7 @@ get_header(); ?>
                           <div class="panel-body">
                               <div class="media accordion-inner">
                                     <div class="pull-left">
-                                        <img class="img-responsive" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/accordion1.png">
+                                        <img class="img-responsive" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/accordion1.png">
                                     </div>
                                     <div class="media-body">
                                          <h4>Adipisicing elit</h4>
@@ -415,7 +339,7 @@ get_header(); ?>
                                 <div class="tab-pane fade" id="tab1">
                                     <div class="media">
                                        <div class="pull-left">
-                                            <img class="img-responsive" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/tab2.png">
+                                            <img class="img-responsive" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/tab2.png">
                                         </div>
                                         <div class="media-body">
                                              <h2>Adipisicing elit</h2>
@@ -427,7 +351,7 @@ get_header(); ?>
                                  <div class="tab-pane fade active in" id="tab2">
                                     <div class="media">
                                        <div class="pull-left">
-                                            <img class="img-responsive" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/tab1.png">
+                                            <img class="img-responsive" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/tab1.png">
                                         </div>
                                         <div class="media-body">
                                              <h2>Adipisicing elit</h2>
@@ -459,7 +383,7 @@ get_header(); ?>
                     <h2>Testimonials</h2>
                      <div class="media testimonial-inner">
                         <div class="pull-left">
-                            <img class="img-responsive img-circle" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/testimonials1.png">
+                            <img class="img-responsive img-circle" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/testimonials1.png">
                         </div>
                         <div class="media-body">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
@@ -469,7 +393,7 @@ get_header(); ?>
 
                      <div class="media testimonial-inner">
                         <div class="pull-left">
-                            <img class="img-responsive img-circle" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/testimonials1.png">
+                            <img class="img-responsive img-circle" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/testimonials1.png">
                         </div>
                         <div class="media-body">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
@@ -497,11 +421,11 @@ get_header(); ?>
 
         <div class="partners">
             <ul>
-                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/partners/partner1.png"></a></li>
-                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/partners/partner2.png"></a></li>
-                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/partners/partner3.png"></a></li>
-                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/partners/partner4.png"></a></li>
-                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="<?php bloginfo(stylesheet_directory); ?>/assets/images/partners/partner5.png"></a></li>
+                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/partners/partner1.png"></a></li>
+                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/partners/partner2.png"></a></li>
+                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/partners/partner3.png"></a></li>
+                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/partners/partner4.png"></a></li>
+                <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/partners/partner5.png"></a></li>
             </ul>
         </div>        
     </div><!--/.container-->
@@ -520,7 +444,7 @@ get_header(); ?>
                     </div>
                     <div class="media-body">
                         <h2>Have a question or need a custom quote?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation +0123 456 70 80</p>
+                        <p>Feel free to contact through email, social services, our comment box or on cellphone +91 7837 222 917</p>
                     </div>
                 </div>
             </div>

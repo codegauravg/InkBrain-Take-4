@@ -373,7 +373,7 @@ padding: 0;
 }
 
 #main-slider .carousel .carousel-content {
-margin-top: 150px;
+
 }
 
 #main-slider .carousel .slide-margin{
@@ -2527,20 +2527,4 @@ margin: 0;
 display: inline-block;
 margin-left: 15px;
 }
-
-/***********************
-******* Subscribe ******
-************************/
-
-#subscribe-box {
-    background: #4E4E4E none repeat scroll 0% 0%;
-    border-top: 5px solid #C52D2F;
-    border-bottom: 5px solid #C52D2F;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 14px;
-}
-
-
-
 
