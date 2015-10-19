@@ -13,7 +13,7 @@
 <?php wp_footer(); ?>
 
 <!--THE SECTION FOR SITE NAVIGATION-->
-<section id="bottom">
+<section id="bottom" class="pad-footer">
     <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1000ms">
         <div class="row">
             <div class="col-md-3 col-sm-6">
@@ -81,10 +81,11 @@
 <footer id="footer" class="midnight-blue">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-4">
                 &copy; 2014 <a target="_blank" href="http://www.github.com/inkbrain" title="Twitter Bootstrap WordPress Themes and HTML template">InkBrain</a>. All Rights Reserved.
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/ocha" title="OCHA">OCHA</a>, <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a>, <a href="http://www.flaticon.com/authors/hand-drawn-goods" title="Hand Drawn Goods">Hand Drawn Goods</a> from <a href="http://www.flaticon.com" title="Flaticon">Flaticon</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+            <div class="col-sm-4">
                 <ul class="pull-right">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>

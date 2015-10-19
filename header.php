@@ -84,7 +84,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/logo.png" alt="IB Logo"></a>
+                <a class="navbar-brand img img-responsive" href="index.html"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/logo.png" alt="IB Logo"></a>
             </div>
 
     <?php
