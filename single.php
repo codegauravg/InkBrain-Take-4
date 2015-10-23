@@ -38,11 +38,8 @@ get_header(); ?>
 </div><!--/.blog-item-->
 </div><!--/.col-md-8-->
 
-<aside class="col-md-4">
-    
-    <?php get_sidebar(); ?>
-	
-</aside>  
+<?php get_sidebar(); ?>
+  
 </div><!--/.row-->
 </div>
 </section><!--/#blog-->
