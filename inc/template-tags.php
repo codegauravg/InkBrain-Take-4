@@ -34,7 +34,7 @@ function ib_posted_on() {
 		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 	);
 
-	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
+	echo '<span id="publish_date">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
 
 }
 endif;
@@ -60,19 +60,19 @@ function ib_entry_footer() {
 	}
 
 	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
-		echo '<span class="comments-link">';
+		echo '<span class="btn comments-link"><i class="fa fa-pencil">';
 		comments_popup_link( esc_html__( 'Leave a comment', 'ib' ), esc_html__( '1 Comment', 'ib' ), esc_html__( '% Comments', 'ib' ) );
-		echo '</span>';
+		echo '</i></span>';
 	}
 
 	edit_post_link(
 		sprintf(
 			/* translators: %s: Name of current post */
-			esc_html__( 'Edit %s', 'ib' ),
+			esc_html__( ' Edit %s', 'ib' ),
 			the_title( '<span class="screen-reader-text">"', '"</span>', false )
 		),
-		'<span class="edit-link">',
-		'</span>'
+		'<span class="btn edit-link"><i class="fa fa-pencil">',
+		'</i></span>'
 	);
 }
 endif;
